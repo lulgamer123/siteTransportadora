@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+
+    box-shadow: 0px 1px 25px 0px rgba(218, 79, 79, 0.75);
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+
+}
+
+.titulo {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.container-main .slogan {
+    font-size: 1.5rem;
+
+}
+
+.container-main .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    width: 45%;
+    padding: 2rem;
+}
+
+.container-main .imagem {
+    height: 800px;
+    width: 55%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('camiao.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.container-main .btn-index {
+    display: block;
+    background-color: #eb6060;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+.container-main .imagem .btn-simular {
+    display: block;
+    background-color: #eb6060;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+
+.container-main .imagem .btn-simular:hover {
+    opacity: 1;
+    padding: 20px 50px;
+}
+
+div.sobre-nos {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 100%;
+}
+
+div.sobre-nos .imagem {
+    height: 800px;
+    width: 60%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('mercedes-980x490.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.sobre-nos .info{
+    width: 40%;
+}   
+
+
+div.simular{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem;
+
+    width: 100%;
+    color: #fff;
+    background: #eb6060;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+footer .links{
+    display: flex;
+    gap: 1rem;
+}
+
+footer .logo{
+    width: 400px;
+    height: 100px;
+    background-image: url("logo_sm.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
